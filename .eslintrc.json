@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "./node_modules/gts/",
+    "plugin:import/recommended",
+    "plugin:import/typescript"
+  ],
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "import/order": [
+      "error"
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  }
+}
