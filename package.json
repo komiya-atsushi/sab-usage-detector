@@ -2,7 +2,10 @@
   "name": "sab-usage-detector",
   "version": "1.0.0",
   "description": "Detects usage of SharedArrayBuffer",
-  "main": "index.js",
+  "bin": {
+    "sab-usage-detector": "bin/sab-usage-detector"
+  },
+  "main": "build/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "gts lint",
