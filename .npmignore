@@ -1,0 +1,19 @@
+# Git
+.github/
+.gitignore
+
+# NPM
+node_modules/
+package-lock.json
+
+# IDE
+.idea/
+
+# TypeScript
+src/
+tsconfig.json
+
+# ESLint/Prettier
+.eslintignore
+.eslintrc.json
+.prettierrc.js
